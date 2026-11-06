@@ -1,6 +1,11 @@
 <div align="center">
 
-# ⌜ bekai ⌟ vision
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="Logo%20%E2%80%94%20dark%20(LinkedIn%20GitHub)%402x.png">
+  <img src="Logo%20%E2%80%94%20light%402x.png" alt="Bekai Vision logo" width="140">
+</picture>
+
+## Bekai Vision
 
 **Computer vision & robotics engineering — from research prototype to production deployment.**
 

@@ -38,6 +38,18 @@ Bekai Vision is an independent computer vision and robotics engineering studio f
 3. **Optimize** — latency, accuracy and cost tuned for your target hardware
 4. **Deliver** — maintainable code, documentation and a system that runs outside the notebook
 
+### 🛰️ Open-source R&D
+
+**[RescueSwarm](https://github.com/bekaivision/rescueswarm)** — Simulated swarm of ground robots and PX4 drones that maps a collapsed building and finds people.
+
+`ROS 2 Jazzy` `Gazebo` `Nav2` `mrg_slam` `YOLO11`
+
+- Mixed swarm reaches 90% map coverage in 60 s vs 310 s with ground robots only
+- 19/19 reachable people confirmed with 0 decoys; SLAM ATE 0.26 m
+- 299 unit tests, CI
+
+<img src="https://raw.githubusercontent.com/bekaivision/rescueswarm/main/docs/media/hero_mixed_swarm.gif" alt="RescueSwarm mixed swarm demo" width="600">
+
 ### 🧰 Stack
 
 `Python` `C++` `PyTorch` `OpenCV` `TensorRT` `ONNX` `ROS` `Jetson` `WebAssembly` `Docker` `FastAPI`
